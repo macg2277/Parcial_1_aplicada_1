@@ -1,0 +1,126 @@
+
+body {
+    background-color: #F5F5F5;
+    color: #2c3e50; 
+    font-family: 'Arial', sans-serif;
+    justify-content: center;
+    margin: 0; 
+    padding: 0;
+
+}
+
+.logo {
+    position: absolute;  
+    top: 40px;       
+    left: 10px;     
+    width: 200px;   
+    height: auto;    
+    z-index: 1000;   
+}
+
+header {
+    background-color: white; 
+    color: rgb(197, 172, 31);
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1.8em;
+    border-bottom: 2px solid #4CAF50; 
+    padding-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #131b88; /* Color verde para el fondo del menú */
+    padding: 10px; /* Espacio alrededor del contenido del menú */
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+    display: flex; /* Usa flexbox para alinear los elementos */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espacio entre los elementos de la lista */
+}
+
+nav ul li a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: white; /* Color del texto del enlace */
+    font-weight: bold; /* Hace que el texto sea negrita */
+    padding: 10px 15px; /* Espaciado alrededor del texto del enlace */
+    border-radius: 5px; /* Bordes redondeados para los enlaces */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+}
+
+nav ul li a:hover {
+    background-color: #333; /* Color de fondo al pasar el ratón sobre el enlace */
+}
+
+
+
+
+
+main {
+    width: 90%;
+    float: right;
+    margin: 0 15px 20px 15px; /* Simplificado las propiedades de margin */
+    text-align: justify; 
+}
+
+video {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.imagen-grande {
+    width: 100%; /* Ajusta al 100% del contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+    max-width: 1200px; /* Tamaño máximo opcional */
+    
+}
+.centrar-texto {
+    text-align: center;
+}
+
+.footer {
+    position: fixed; /* Fija el pie de página en la parte inferior */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #131b88;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.footer a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 24px;
+}
+.footer a:hover {
+    color: #ddd;
+}

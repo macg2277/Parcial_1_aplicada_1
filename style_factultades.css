@@ -1,0 +1,127 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+header p {
+    margin: 10px 0;
+    color: #666;
+}
+
+#banner {
+    width: 100%;
+    overflow: hidden;
+}
+
+#banner .banner-content img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#facultades {
+    padding: 20px;
+}
+
+.ews-facultad-img {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 20px 0;
+}
+
+.ews-facultad-img h3 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.facultad-description {
+    margin: 20px 0;
+}
+
+.facultad-description h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.facultad-description p, .facultad-description ul {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.facultad-description ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .footer a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+footer .footer a:hover {
+    color: #007bff;
+}
+
+nav {
+    background-color: #131b88; /* Color verde para el fondo del menú */
+    padding: 10px; /* Espacio alrededor del contenido del menú */
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+    display: flex; /* Usa flexbox para alinear los elementos */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espacio entre los elementos de la lista */
+}
+
+nav ul li a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: white; /* Color del texto del enlace */
+    font-weight: bold; /* Hace que el texto sea negrita */
+    padding: 10px 15px; /* Espaciado alrededor del texto del enlace */
+    border-radius: 5px; /* Bordes redondeados para los enlaces */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+}
+
+nav ul li a:hover {
+    background-color: #333; /* Color de fondo al pasar el ratón sobre el enlace */
+}
